@@ -7,16 +7,24 @@ body {
   }
   
   .menu {
-    width: 80%;
-    background-color: burlywood;
-    margin-left: auto;
-    margin-right: auto;
+  width: 80%;
+  max-width: 500px;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
   }
   
-  .flavor {
+  .item p {
+    display: inline-block;
+  }
+  
+  .flavor, .dessert {
     text-align: left;
+    width: 75%;
   }
   
   .price {
     text-align: right;
+    width: 25%
   }
